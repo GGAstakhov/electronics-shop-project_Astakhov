@@ -6,7 +6,7 @@ class KeyboardMixin:
     def language(self):
         return self.__language
 
-    def language_change(self):
+    def change_lang(self):
         if self.__language == 'EN':
             self.__language = "RU"
         else:
