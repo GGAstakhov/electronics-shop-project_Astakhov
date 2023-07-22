@@ -1,7 +1,7 @@
 from src.item import Item
-from src.keyboardmixin import KeyboardMixin
+from src.mixinkeyboard import MixinKeyboard
 
 
-class Keyboard(Item, KeyboardMixin):
+class Keyboard(Item, MixinKeyboard):
     def __init__(self, name, price, quantity):
         super().__init__(name, price, quantity)
