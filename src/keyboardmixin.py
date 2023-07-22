@@ -1,4 +1,4 @@
-class KeybordMixin:
+class KeyboardMixin:
     def __init__(self):
         self.__language = 'EN'
 
