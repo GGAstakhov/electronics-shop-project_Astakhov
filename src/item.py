@@ -62,7 +62,7 @@ class Item:
         except FileNotFoundError:
             raise FileNotFoundError("Отсутствует файл item.csv")
         except KeyError:
-            raise InstantiateCSVError("Файл item.csv поврежден")\
+            raise InstantiateCSVError("Файл item.csv поврежден")
 
 
     @staticmethod
